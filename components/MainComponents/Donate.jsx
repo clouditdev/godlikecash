@@ -7,7 +7,7 @@ import Link from "next/link";
 export const Donate = () => {
     const [settings, setDonate] = useState(false)
     return (
-        <div>
+        <div className="">
             <div className="flex flex-nowrap">
                 <div>
                     <div className="bg-[#1D1E28] py-2 px-2 rounded-l-md cursor-pointer my-4 border-y border-l border-[#454f61]">
@@ -29,7 +29,7 @@ export const Donate = () => {
             </div>
             <AnimatePresence initial={false} exitBeforeEnter={true} onExitComplete={() => null}>
                 {settings ?
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 0.3 } }} exit={{ opacity: 0, transition: { duration: 0.3 } }} className="fixed top-0 left-0 md:pt-40 visible w-screen text-white transition-colors duration-300 h-screen bg-black bg-opacity-30 shadow-2xl z-40">
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 0.3 } }} exit={{ opacity: 0, transition: { duration: 0.3 } }} className="fixed top-0 left-0 md:pt-40 visible w-screen text-white transition-colors duration-300 h-screen bg-black bg-opacity-30 shadow-2xl">
                         <div className="flex justify-center">
                             <div className="flex flex-col bg-[#2E2F40] px-2 md:px-5 rounded-md shadow-xl">
                                 <div className="flex flex-nowrap md:w-full justify-between mx-5">

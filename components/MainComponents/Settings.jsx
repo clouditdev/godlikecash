@@ -13,7 +13,7 @@ export const Settings = () => {
             </button>
             <AnimatePresence initial={false} exitBeforeEnter={true} onExitComplete={() => null}>
                 {settings ?
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 0.3 } }} exit={{ opacity: 0, transition: { duration: 0.3 } }} className="fixed top-0 left-0 pt-60 visible w-screen text-white transition-colors duration-300 h-screen bg-black bg-opacity-30 shadow-2xl z-30 drop-shadow-xl">
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 0.3 } }} exit={{ opacity: 0, transition: { duration: 0.3 } }} className="fixed top-0 left-0 pt-60 visible w-screen text-white transition-colors duration-300 h-screen bg-black bg-opacity-30 shadow-2xl drop-shadow-xl">
                         <div className="flex justify-center">
                             <div className="flex flex-col bg-[#2E2F40] px-5 rounded-md">
                                 <div className="flex flex-nowrap justify-between">
