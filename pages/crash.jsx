@@ -50,7 +50,7 @@ const Crash = () => {
                 </div>
                 <div className='flex justify-center z-10'>
                     <Image width={598} height={339} src="/bomb.png" alt="Bomb/Crash" />
-                    <video className='absolute invisible md:visible ml-80 mt-40' autoPlay muted loop playsinline>
+                    <video className='absolute invisible md:visible ml-80 mt-40 -top-96 -left-96 md:top-0 md:left-0' autoPlay muted loop playsinline>
                         <source src="/Gaben.webm" type="video/webm" />
                         <source src="video.mov" type="video/quicktime" />
                     </video>
