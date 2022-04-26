@@ -49,8 +49,10 @@ const Crash = () => {
                     <Xblue x="1.62" />
                 </div>
                 <div className='flex justify-center z-10'>
+                    <div className='flex lg:ml-40'>
                     <Image width={598} height={339} src="/bomb.png" alt="Bomb/Crash" />
-                    <video className='absolute invisible md:visible ml-80 mt-40 -top-96 -left-96 md:top-0 md:left-0' autoPlay muted loop playsinline>
+                    </div>
+                    <video className='mt-36 absolute lg:relative invisible lg:visible -top-96 -left-96 md:top-0 md:left-0' autoPlay muted loop playsinline>
                         <source src="/Gaben.webm" type="video/webm" />
                         <source src="video.mov" type="video/quicktime" />
                     </video>
