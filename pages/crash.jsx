@@ -49,7 +49,11 @@ const Crash = () => {
                     <Xblue x="1.62" />
                 </div>
                 <div className='flex justify-center z-10'>
-                    <Image width={598} height={339} src="/bomb.png" alt="Bomb/Crash"/>
+                    <Image width={598} height={339} src="/bomb.png" alt="Bomb/Crash" />
+                    <video className='absolute invisible md:visible ml-80 mt-40' autoPlay muted loop playsinline>
+                        <source src="/Gaben.webm" type="video/webm" />
+                        <source src="video.mov" type="video/quicktime" />
+                    </video>
                 </div>
                 <div className='flex w-full justify-center'>
                     <Line className='md:w-3/4 h-2 rounded-full mx-4' percent="50" strokeColor="#F1AD0A" />
@@ -123,7 +127,7 @@ const Crash = () => {
                     <div className='flex w-full md:w-3/4'>
                         <div className='flex flex-nowrap bg-[#393A4F] w-full rounded-md justify-center ml-4 md:ml-0'>
                             <div className='my-4 h-7 w-7'>
-                                <Image src="/bank-icon.png" width={43} height={40} alt="Coins"/>
+                                <Image src="/bank-icon.png" width={43} height={40} alt="Coins" />
                             </div>
                             <div className='flex flex-col py-2 ml-2'>
                                 <p className='text-center w-full text-white font-semibold md:text-lg'>
@@ -136,7 +140,7 @@ const Crash = () => {
                         </div>
                         <div className='flex flex-nowrap bg-[#393A4F] w-full rounded-md justify-center mx-1 md:mx-2'>
                             <div className='my-4 h-7 w-7'>
-                                <Image src="/bank-icon.png" width={43} height={40} alt="Coins"/>
+                                <Image src="/bank-icon.png" width={43} height={40} alt="Coins" />
                             </div>
                             <div className='flex flex-col py-2 ml-2'>
                                 <p className='text-center w-full text-white font-semibold md:text-lg'>
@@ -147,9 +151,9 @@ const Crash = () => {
                                 </p>
                             </div>
                         </div>
-                                                <div className='flex flex-nowrap bg-[#393A4F] w-full rounded-md justify-center mr-4 md:mr-0'>
+                        <div className='flex flex-nowrap bg-[#393A4F] w-full rounded-md justify-center mr-4 md:mr-0'>
                             <div className='my-4 h-7 w-7'>
-                                <Image src="/bank-icon.png" width={43} height={40} alt="Coins"/>
+                                <Image src="/bank-icon.png" width={43} height={40} alt="Coins" />
                             </div>
                             <div className='flex flex-col py-2 ml-2'>
                                 <p className='text-center w-full text-white font-semibold md:text-lg'>
