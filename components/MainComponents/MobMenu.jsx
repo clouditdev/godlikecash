@@ -12,7 +12,7 @@ export function MobMenu() {
                     <Menu />
                 </div>
             </button>
-            <div className={menu ? "bg-[#22252D] h-full w-80 transition-translate duration-300 fixed left-0 z-50 rounded-r-md border-r border-[#383a41] bg-opacity-60 backdrop-blur-md" : 'bg-[#22252D] h-full w-80 transition-translate duration-300 fixed left-0 z-50 -translate-x-96 rounded-r-md border-r border-[#383a41] bg-opacity-60 backdrop-blur-md'}>
+            <div className={menu ? "bg-[#22252D] h-full w-80 transition-translate duration-500 fixed left-0 z-50 rounded-r-md border-r border-[#383a41] bg-opacity-60 backdrop-blur-md" : 'bg-[#22252D] h-full w-80 transition-translate duration-500 fixed left-0 z-50 -translate-x-96 rounded-r-md border-r border-[#383a41] bg-opacity-60 backdrop-blur-md'}>
                 <div className="flex h-full justify-between flex-col">
                     <div className="flex flex-col">
                         <div className='flex flex-nowrap px-4 py-4 justify-between'>

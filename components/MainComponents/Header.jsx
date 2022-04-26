@@ -50,7 +50,7 @@ const Header = () => {
             <p className='flex w-screen border-b border-[#6B7A99]' />
             <div className='flex flex-nowrap w-screen justify-between'>
                 <div className='flex flex-nowrap'>
-                    <Link href="/">
+                    <Link href="/" passHref>
                     <div className='flex flex-nowrap px-4 py-4 cursor-pointer'>
                         <div className="h-9 w-9">
                             <GodlikeCash />
@@ -59,7 +59,7 @@ const Header = () => {
                         <p className='text-[#4DA6FF] font-bold text-2xl mt-1'>Cash</p>
                     </div>
                     </Link>
-                    <Link href="/crash">
+                    <Link href="/crash" passHref>
                         <div className={pathname === "/crash" ? 'flex flex-nowrap text-white transition-colors duration-200 border-b-2 border-[#4DA6FF] cursor-pointer ml-4 fill-[#4DA6FF]' : 'flex flex-nowrap text-[#6B7A99] hover:text-white transition-colors duration-200 hover:border-b-2 border-[#4DA6FF] cursor-pointer ml-4 fill-[#6B7A99] hover:fill-[#4DA6FF]'}>
                             <div className='py-5'>
                                 <div className='flex flex-nowrap border-r border-[#6B7A99]'>
@@ -73,7 +73,7 @@ const Header = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link href="/double">
+                    <Link href="/double" passHref>
                         <div className={pathname === "/double" ? 'flex flex-nowrap text-white transition-colors duration-200 border-b-2 border-[#4DA6FF] cursor-pointer fill-[#4DA6FF]' : 'flex flex-nowrap text-[#6B7A99] hover:text-white transition-colors duration-200 hover:border-b-2 border-[#4DA6FF] cursor-pointer fill-[#6B7A99] hover:fill-[#4DA6FF]'}>
                             <div className='py-5'>
                                 <div className='flex flex-nowrap border-r border-[#6B7A99]'>
@@ -87,7 +87,7 @@ const Header = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link href="/jackpot">
+                    <Link href="/jackpot" passHref>
                         <div className={pathname === "/jackpot" ? 'flex flex-nowrap text-white transition-colors duration-200 border-b-2 border-[#4DA6FF] cursor-pointer fill-[#4DA6FF]' : 'flex flex-nowrap text-[#6B7A99] hover:text-white transition-colors duration-200 hover:border-b-2 border-[#4DA6FF] cursor-pointer fill-[#6B7A99] hover:fill-[#4DA6FF]'}>
                             <div className='py-5'>
                                 <div className='flex flex-nowrap'>
@@ -101,7 +101,7 @@ const Header = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link href="/mines">
+                    <Link href="/mines" passHref>
                         <div className={pathname === "/mines" ? 'flex flex-nowrap text-white transition-colors duration-200 border-b-2 border-[#4DA6FF] cursor-pointer fill-[#4DA6FF]' : 'flex flex-nowrap text-[#6B7A99] hover:text-white transition-colors duration-200 hover:border-b-2 border-[#4DA6FF] cursor-pointer fill-[#6B7A99] hover:fill-[#4DA6FF]'}>
                             <div className='py-5'>
                                 <div className='flex flex-nowrap border-l border-[#6B7A99]'>
