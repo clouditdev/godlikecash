@@ -4,7 +4,7 @@ import { MobNav } from "./MobNav";
 
 const MainLayout = ({children}) => {
     return(
-        <div className="flex flex-col w-full font-rubik justify-between overflow-hidden md:h-screen">
+        <div className="flex flex-col w-full font-rubik justify-between overflow-hidden ">
             <Header/>
             <MobileHeader />
             <div className="flex w-full overflow-hidden">

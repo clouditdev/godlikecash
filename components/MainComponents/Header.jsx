@@ -1,4 +1,4 @@
-import { Bomb, Coinflip, Crown, GodlikeCash, Partnership, Question, Roulette, Shield, Tg, Vk, Yt } from '../icons/Icons';
+import { Bomb, Mines, Crown, GodlikeCash, Partnership, Question, Roulette, Shield, Tg, Vk, Yt } from '../icons/Icons';
 import { Authen } from './Authen';
 import { Settings } from './Settings';
 import { useRouter } from "next/router";
@@ -87,29 +87,29 @@ const Header = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link href="/coinflip">
-                        <div className={pathname === "/coinflip" ? 'flex flex-nowrap text-white transition-colors duration-200 border-b-2 border-[#4DA6FF] cursor-pointer fill-[#4DA6FF]' : 'flex flex-nowrap text-[#6B7A99] hover:text-white transition-colors duration-200 hover:border-b-2 border-[#4DA6FF] cursor-pointer fill-[#6B7A99] hover:fill-[#4DA6FF]'}>
+                    <Link href="/jackpot">
+                        <div className={pathname === "/jackpot" ? 'flex flex-nowrap text-white transition-colors duration-200 border-b-2 border-[#4DA6FF] cursor-pointer fill-[#4DA6FF]' : 'flex flex-nowrap text-[#6B7A99] hover:text-white transition-colors duration-200 hover:border-b-2 border-[#4DA6FF] cursor-pointer fill-[#6B7A99] hover:fill-[#4DA6FF]'}>
                             <div className='py-5'>
-                                <div className='flex flex-nowrap border-r border-[#6B7A99]'>
-                                    <div className='mx-4 h-6 w-6 mt-1'>
-                                        <Coinflip />
+                                <div className='flex flex-nowrap'>
+                                    <div className='mx-4 h-7 w-7'>
+                                        <Crown />
                                     </div>
                                     <p className='font-semibold text-lg mr-6 invisible absolute lg:visible lg:relative'>
-                                        COINFLIP
+                                        JACKPOT
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </Link>
-                    <Link href="/jackpot">
-                        <div className={pathname === "/jackpot" ? 'flex flex-nowrap text-white transition-colors duration-200 border-b-2 border-[#4DA6FF] cursor-pointer fill-[#4DA6FF]' : 'flex flex-nowrap text-[#6B7A99] hover:text-white transition-colors duration-200 hover:border-b-2 border-[#4DA6FF] cursor-pointer fill-[#6B7A99] hover:fill-[#4DA6FF]'}>
+                    <Link href="/mines">
+                        <div className={pathname === "/mines" ? 'flex flex-nowrap text-white transition-colors duration-200 border-b-2 border-[#4DA6FF] cursor-pointer fill-[#4DA6FF]' : 'flex flex-nowrap text-[#6B7A99] hover:text-white transition-colors duration-200 hover:border-b-2 border-[#4DA6FF] cursor-pointer fill-[#6B7A99] hover:fill-[#4DA6FF]'}>
                             <div className='py-5'>
-                                <div className='flex flex-nowrap'>
+                                <div className='flex flex-nowrap border-l border-[#6B7A99]'>
                                     <div className='mx-4 h-6 w-6 mt-1'>
-                                        <Crown />
+                                        <Mines />
                                     </div>
                                     <p className='font-semibold text-lg mr-6 invisible absolute lg:visible lg:relative'>
-                                        JACKPOT
+                                        MINES
                                     </p>
                                 </div>
                             </div>

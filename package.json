@@ -23,6 +23,7 @@
     "rc-progress": "^3.2.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "seethru": "^4.0.0",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
