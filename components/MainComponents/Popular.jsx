@@ -7,8 +7,8 @@ const Popular = () => {
     const games = [
         { id: 1, img: "/images/games/0fe9cf6d5c6ce32f0b10980bfacd4d57.png", name: "Queen of the Sun", provider: "Booongo", send: "/slots/infin-queenofthesun", },
         { id: 2, img: "/images/games/01d7ac3d16f999fcdca05917e418107a.png", name: "Money Train 2", provider: "Relax Gaming", send: "/slots/relax-moneytrain2", },
-        { id: 3, img: "/images/games/0fe9cf6d5c6ce32f0b10980bfacd4d57.png", name: "", provider: "Relax Gaming" },
-        { id: 4, img: "/images/games/0fe9cf6d5c6ce32f0b10980bfacd4d57.png", name: "", provider: "Booongo" },
+        { id: 3, img: "/images/games/74847fd0c2f1eb89e6cbdf39e2245268.png", name: "The Dog House Megaways", provider: "Pragmatic Play", send: "/slots/pragmaticexternal-thedoghousemegaways1",},
+        { id: 4, img: "/images/games/e8afe2e3d3359a83cd509d20b4d92b6e.png", name: "Lucky Lady Moon", provider: "BGaming", send: "/slots/softswiss-luckyladymoon-mode=fun", },
     ]
     return (
         <div className="flex w-full justify-center">

@@ -2,16 +2,16 @@ import React from 'react'
 import { Games } from '../../components/MainComponents/Games'
 import MainLayout from '../../components/MainComponents/MainLayount'
 
-const Queenofthesun = () => {
+const LuckyLadyMoon = () => {
   return (
     <MainLayout>
         <div className="flex w-full h-screen justify-center z-20">
             <div className="flex w-full justify-center">
-                <Games game="Queen of the Sun" provider="Booongo" demo="https://api-prod.infingame.com/bm-launch/softswiss/jetcasino/prod?gameName=queen_of_the_sun&key=TEST1000&country=RUS&demo=true&shell=request&language=ru&segment=desktop" title="Queen of the Sun - Booongo"/>
+                <Games game="Lucky Lady Moon" provider="BGaming" demo="https://bgaming-network.com/games/LuckyLadyMoon/FUN?play_token=f51c1392-b974-4883-b350-6fe87dc52297" title="softswiss-luckyladymoon"/>
             </div>
         </div>
     </MainLayout>
   )
 }
 
-export default Queenofthesun
+export default LuckyLadyMoon

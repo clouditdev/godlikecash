@@ -2,16 +2,16 @@ import React from 'react'
 import { Games } from '../../components/MainComponents/Games'
 import MainLayout from '../../components/MainComponents/MainLayount'
 
-const Queenofthesun = () => {
+const TheDogHouseMegaways = () => {
   return (
     <MainLayout>
         <div className="flex w-full h-screen justify-center z-20">
             <div className="flex w-full justify-center">
-                <Games game="Queen of the Sun" provider="Booongo" demo="https://api-prod.infingame.com/bm-launch/softswiss/jetcasino/prod?gameName=queen_of_the_sun&key=TEST1000&country=RUS&demo=true&shell=request&language=ru&segment=desktop" title="Queen of the Sun - Booongo"/>
+                <Games game="The Dog House Megaways" provider="Pragmatic Play" demo="https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysdogs&jurisdiction=99&lang=en&lobbyUrl=https%3A%2F%2Fjet.casino%2Fexit_iframe" title="The Dog House Megaways - Pragmatic Play"/>
             </div>
         </div>
     </MainLayout>
   )
 }
 
-export default Queenofthesun
+export default TheDogHouseMegaways

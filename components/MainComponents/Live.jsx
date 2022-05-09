@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Live = () => {
     const games = [
-        { id: 1, img: "/images/games/0fe9cf6d5c6ce32f0b10980bfacd4d57.png", name: "Queen of the Sun", provider: "Booongo", send: "/slots/infin-queenofthesun", },
+        { id: 1, img: "/images/games/2243d497f8dc4f070f909176723c42e2.png", name: "Crazy Time", provider: "Evolution", send: "/live-games/crazy-time", },
         { id: 2, img: "/images/games/01d7ac3d16f999fcdca05917e418107a.png", name: "Money Train 2", provider: "Relax Gaming", send: "/slots/relax-moneytrain2", },
         { id: 3, img: "/images/games/0fe9cf6d5c6ce32f0b10980bfacd4d57.png", name: "", provider: "Relax Gaming" },
         { id: 4, img: "/images/games/0fe9cf6d5c6ce32f0b10980bfacd4d57.png", name: "", provider: "Booongo" },
