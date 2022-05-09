@@ -10,7 +10,7 @@ export const Donate = () => {
         <div className="">
             <div className="flex flex-nowrap">
                 <div>
-                    <div className="bg-[#1D1E28] py-2 px-2 rounded-l-md cursor-pointer my-4 border-y border-l border-[#454f61]">
+                    <div className="bg-[#1B1A1F] py-2 px-2 rounded-l-md cursor-pointer my-4 border-y border-l border-[#454f61]">
                         <p className="text-white font-bold">
                             0.00
                         </p>
@@ -31,7 +31,7 @@ export const Donate = () => {
                 {settings ?
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 0.3 } }} exit={{ opacity: 0, transition: { duration: 0.3 } }} className="fixed top-0 left-0 md:pt-40 visible w-screen text-white transition-colors duration-300 h-screen bg-black bg-opacity-30 shadow-2xl">
                         <div className="flex justify-center">
-                            <div className="flex flex-col bg-[#2E2F40] px-2 md:px-5 rounded-md shadow-xl">
+                            <div className="flex flex-col bg-[#343040] px-2 md:px-5 rounded-md shadow-xl">
                                 <div className="flex flex-nowrap md:w-full justify-between mx-5">
                                     <p className="my-4">
                                         ПОПОЛНЕНИЕ БАЛАНСА
@@ -56,7 +56,7 @@ export const Donate = () => {
                                     </div>
                                     <div className="flex flex-nowrap mt-20">
                                         <div className="mx-2 my-4">
-                                            <input placeholder="1$" type="number" className="block p-2 w-28 text-gray-400 bg-[#242533] rounded-md sm:text-md focus:outline-none" />
+                                            <input placeholder="1$" type="number" className="block p-2 w-28 text-gray-400 bg-[#1B1A1F] rounded-md sm:text-md focus:outline-none" />
                                         </div>
                                         <div className="flex flex-nowrap bg-gradient-to-b from-[#F4B206] to-[#DD8B21] h-10 rounded-md px-4 mt-4 ml-2 fill-[#723A1B] text-[#723A1B] hover:shadow-xl">
                                             <div className="mt-1">

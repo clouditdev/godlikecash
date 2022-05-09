@@ -7,7 +7,7 @@ const SignIn = ({ providers }) => {
   const { data: session } = useSession()
   if (session) {
     return (
-      <div className='flex w-screen h-screen bg-[#242532] justify-center'>
+      <div className='flex w-screen h-screen bg-[#262230] justify-center'>
         <div className="flex flex-col w-full justify-center">
           <div className="flex w-full justify-center my-4">
             <div className="h-14 w-14">
@@ -52,7 +52,7 @@ const SignIn = ({ providers }) => {
             <p className="text-white font-bold text-5xl">
               Godlike
             </p>
-            <p className="text-[#4DA6FF] font-bold text-5xl">
+            <p className="text-[#F8526E] font-bold text-5xl">
               Cash
             </p>
           </div>
